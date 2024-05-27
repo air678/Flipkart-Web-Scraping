@@ -33,5 +33,5 @@ print(len(product_links))
 
 
 df = pd.DataFrame(product_links, columns=['Product Title', 'Product Link'])
-df.to_csv(r"D:\Python\web scraping\test4.csv", index=False)
+df.to_csv(r"scrapeddata.csv", index=False)
 print("Data saved to test4.csv")
